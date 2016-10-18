@@ -3,18 +3,20 @@
   "version": "0.0.7",
   "description": "Poloniex API client",
   "author": "Premasagar Rose <p@premasagar.com>",
+  "contributors": ["Nick Addison"],
   "license": "MIT",
   "readmeFilename": "README.md",
   "main": "lib/poloniex",
   "dependencies": {
     "nonce": "~1.0.3",
-    "request": "~2.33.0"
+    "request": "~2.33.0",
+    "verror": "~1.8.1"
   },
   "devDependencies": {},
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/premasagar/poloniex.js.git"
+    "url": "https://github.com/naddison36/poloniex.js.git"
   },
   "keywords": [
     "poloniex",
@@ -24,7 +26,7 @@
     "altcoins"
   ],
   "bugs": {
-    "url": "https://github.com/premasagar/poloniex.js/issues"
+    "url": "https://github.com/naddison36/poloniex.js/issues"
   },
   "engines": {
     "node": ">=0.10"

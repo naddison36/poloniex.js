@@ -14,7 +14,6 @@ var Poloniex = require('./lib/poloniex'),
 // Do not include the line below once the issue is resolved.
 Poloniex.STRICT_SSL = false;
 
-
 // Public call
 poloniex.getTicker(function(err, data){
     if (err){
@@ -24,7 +23,15 @@ poloniex.getTicker(function(err, data){
 
     console.log(data);
 });
-
+//
+// poloniex.getOrderBook('USDT', 'ETH', function(err, data){
+//     if (err){
+//         console.log('ERROR', err);
+//         return;
+//     }
+//
+//     console.log(data);
+// });
 
 // Private call - requires API key and secret
 /*
